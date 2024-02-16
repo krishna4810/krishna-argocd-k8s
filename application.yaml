@@ -12,7 +12,7 @@ spec:
     path: .
   destination: 
     server: https://kubernetes.default.svc
-    namespace: pet
+    namespace: krishna-deploy-ns
 
   syncPolicy:
     syncOptions:
