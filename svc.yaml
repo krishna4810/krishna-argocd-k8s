@@ -11,5 +11,5 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: pet-deploy
+    app: krishna-deploy
   type: NodePort
