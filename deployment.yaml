@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
-  name: pet-deploy
+    app: krishna-deploy
+  name: krishna-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: krishna-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: krishna-deploy
     spec:
       containers:
       - image: cloudsihmar/sandeep:19
-        name: pet
+        name: krishna-deploy
